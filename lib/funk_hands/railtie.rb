@@ -42,7 +42,11 @@ module FunkHands
         bold = ->(text) { color[] ? "\001\e[1m\002#{text}\001\e[0m\002"    : text.to_s }
 
         separator = -> { red.(FunkHands.prompt_separator) }
-        name = app.class.parent_name.underscore
+        name = if app.class.respond_to? :module_parent_name # Rails 6
+          app.class.module_parent_name.underscore
+        else # Older Rails versions
+          app.class.parent_name.underscore
+        end
         colored_name = -> { blue.(name) }
 
         line = ->(pry) { "[#{bold.(pry.input_ring.size)}] " }
