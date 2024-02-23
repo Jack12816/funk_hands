@@ -1,3 +1,7 @@
+## next
+
+* Corrected the broken multiline handling
+
 ## 2.0.0 (2023-12-07)
 
 * Dropped Pry prompt modifications, Hirb and awesome_print, coolline, coderay

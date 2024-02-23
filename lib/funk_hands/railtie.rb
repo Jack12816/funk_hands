@@ -53,7 +53,7 @@ module FunkHands
                 name.size +
                 target_string.(object, level).size
               )
-              "#{spaces} #{separator.()} "
+              "#{spaces} #{separator} "
             end
           ]
         )
