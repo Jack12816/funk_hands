@@ -1,3 +1,7 @@
+## next
+
+* Upgraded dependencies and require Pry 0.15.0 now
+
 ## 2.0.1 (2024-02-23)
 
 * Corrected the broken multiline handling
