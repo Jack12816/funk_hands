@@ -1,3 +1,7 @@
+## next
+
+* Upgraded pry-remote-reloaded to 3.0
+
 ## 3.0.0 (2025-08-19)
 
 * Upgraded dependencies and require Pry 0.15.0 now
