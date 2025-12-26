@@ -1,4 +1,4 @@
-## next
+## 3.2.0 (2025-12-26)
 
 * Added `readline` gem to the dependencies
 
