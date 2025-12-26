@@ -21,7 +21,8 @@ Gem::Specification.new do |gem|
 
   # Dependencies
   gem.add_runtime_dependency 'pry', '>= 0.15.0'
+  gem.add_runtime_dependency 'pry-byebug-reloaded', '~> 3.11'
   gem.add_runtime_dependency 'pry-rails', '>= 0.3.11'
   gem.add_runtime_dependency 'pry-remote-reloaded', '~> 3.0'
-  gem.add_runtime_dependency 'pry-byebug-reloaded', '~> 3.11'
+  gem.add_runtime_dependency 'readline', '>= 0.0.4'
 end

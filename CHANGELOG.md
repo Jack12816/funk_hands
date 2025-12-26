@@ -1,3 +1,7 @@
+## next
+
+* Added `readline` gem to the dependencies
+
 ## 3.1.0 (2025-08-20)
 
 * Upgraded pry-remote-reloaded to 3.0
